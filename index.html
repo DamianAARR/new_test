@@ -1,10 +1,143 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Odin</title>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <title>Odin Website Course</title>
+</head>
+
+<body>
+    <!--Recordar los valores (value) noopener y noreferrer para evitar dar información de la persona que accede al link-->
+
+    <a id="principio"></a>
+
+    <header>
+        <h1>First web on the Odin Poject</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="pages/about.html">About</a></li>
+            <li>Artículos</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+<!-- ESTO ES UN COMENTARIO EN HTML-->
+    <section>
+
+        <article>
+            <h2>Primer post</h2>
+            <p>Descripción del post</p>
+            <img src="" alt="Es una foto que aún no se ha cargado" />
+        </article>
+
+        <article>
+            <h2>Segundo post</h2>
+            <p>Descripción del post</p>
+            <img src="images/dog.jpg" width="200px" alt="Es una foto que aún no se ha cargado" />
+        </article>
+
+        <article>
+            <h2>Tercer post</h2>
+            <p>Descripción del post</p>
+            <img src="" alt="Es una foto que aún no se ha cargado" />
+        </article>
+
+        <article>
+            <h2>Cuarto post</h2>
+            <p>Descripción del post</p>
+            <img src="" alt="Es una foto que aún no se ha cargado" />
+        </article>
+
+        <article>
+            <h2>Quinto post</h2>
+            <p>Descripción del post</p>
+            <img src="" alt="Es una foto que aún no se ha cargado" />
+        </article>
+        
+        
+    </section>
+
+    <br>
+
+
+    <table style="border: 2px solid;">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+           
+        <tbody>
+            <tr>
+                <td>Damián</td>
+                <td>Arellano</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Nayra</td>
+                <td>Dehn</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>Inma</td>
+                <td>Rodríguez</td>
+                <td>52</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <div style="border: 2px solid blue;">
+
+    
+    <h3>Formularios</h3>
+    <form>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" />
+        <label>Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" />
+
+        <br>
+
+        <label>Sexo</label>
+        <input type="checkbox" name="hombre" value="hombre" />Hombre
+        <input type="checkbox" name="mujer" value="mujer" />Mujer
+
+        <br>
+
+        <label>Lenguaje</label>
+        <select>
+            <option value="html">Html</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos de contacto</legend>
+        <label>Teléfono</label>
+        <input type="tel" name="telefono">
+        <label>Email</label>
+        <input type="email" name="email" />
+    </fieldset>
+
+    <button type="submit">Enviar Formulario</button>
+    <button type="reset">Limpiar Formulario</button>
+    </form>
+</div>
+
+<footer>
+    <p>Página creada por <strong>Damián AR</strong></p>
+    <a href="#principio">Volver al principio</a>
+
+</footer>
+</body>
+
 </html>
